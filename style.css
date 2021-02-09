@@ -10,6 +10,7 @@
     width: 100%;
 }
 .left{
+    position: fixed;
     padding: 20px 20px 20px 20px;
     float: left;
     width: 30%;
@@ -66,42 +67,10 @@ ul {
 .text-uppercase {
     text-transform: uppercase;
 }
-
-.btn{
-    margin-top: 4rem;
-    font-size: 2rem;
-    font-weight: 400;
-    display: inline-block;
-    background-color:transparent;
-    border: 2px solid transparent;   
-    color: #fff;
-    border-radius: .4rem;
-    cursor: pointer;
-    transition: all .5s;
-
-}
-.btn-social{
-    width: 6rem;
-    height: 6rem;
-    border-radius: 50%;
-    font-size: 2rem;
-    line-height: 2rem; 
-}
-
-.btn-outline{
-color: #fff;
-border-color: #fff;
-background-color:transparent;
-padding:2.2rem 1.6rem;
-}
-.btn-outline:hover{
-    color: #212529;
-    background-color: #fff;
-}
 .right{
     background-color: #F0F0F0;
     padding: 20px 20px 20px 20px;
-    float: left;
+    float: right;
     width: 65%;
 }
 .post p{
