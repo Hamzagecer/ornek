@@ -37,6 +37,22 @@
     border-bottom: 1px solid #C7C7C7;
     width: 100px;
 }
+.left .icon li{
+    display:inline;
+    padding: 4px;
+    font-size: 20px;
+}
+.left .icon{
+    margin: 30px;
+}
+.left .icon a:hover{
+    color: black;
+    transition: color .2s;
+}
+.icon a{
+    text-decoration: none;
+    color: #A9A9A9;
+}
 a {
     text-decoration: none;
 }
@@ -66,6 +82,19 @@ ul {
 }
 .text-uppercase {
     text-transform: uppercase;
+}
+.end{
+    font-size: 11px;
+    margin: 30px;
+    color: #A9A9A9;
+    word-spacing: 3px;
+}
+.end a{
+    color: #A9A9A9;
+}
+.end a:hover{
+    color: black;
+    transition: color .2s;
 }
 .right{
     background-color: #F0F0F0;
